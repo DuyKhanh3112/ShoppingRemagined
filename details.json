@@ -1,0 +1,669 @@
+[
+    {
+        "ID": "sp1",
+        "Name": "Men's Shirts",
+        "Color": [
+            "Green",
+            "Grey",
+            "Black",
+            "White"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/men/men1-4.jpg",
+            "assets/img/men/men1-5.jpg",
+            "assets/img/men/men2-1.jpg",
+            "assets/img/men/men2-2.jpg"
+        ],
+        "Price": "50"
+    },
+    {
+        "ID": "sp2",
+        "Name": "Men's Shorts 1",
+        "Color": [
+            "Black",
+            "Blue"
+        ],
+        "Size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/men/men4-1.jpg",
+            "assets/img/men/men4-2.jpg"
+        ],
+        "Price": "50"
+    },
+    {
+        "ID": "sp3",
+        "Name": "Men's Trousers",
+        "Color": [
+            "Grey"
+        ],
+        "Size": [
+            "M",
+            "L"
+        ],
+        "Img": [
+            "assets/img/men/men3-1.jpg",
+            "assets/img/men/men3-2.jpg"
+        ],
+        "Price": "60"
+    },
+    {
+        "ID": "sp4",
+        "Name": "Men's Shorts 2",
+        "Color": [
+            "Black",
+            "Blue"
+        ],
+        "Size": [
+            "M",
+            "L"
+        ],
+        "Img": [
+            "assets/img/men/men4-3.jpg",
+            "assets/img/men/men4-4.jpg"
+        ],
+        "Price": "65"
+    },
+    {
+        "ID": "sp5",
+        "Name": "Men's Suit Set 1",
+        "Color": [
+            "Blue",
+            "Pink"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/men/men5-3.jpg",
+            "assets/img/men/men5-2.jpg",
+            "assets/img/men/men5-1.jpg"
+        ],
+        "Price": "110"
+    },
+    {
+        "ID": "sp6",
+        "Name": "Men's Suit Set 2",
+        "Color": [
+            "Yellow",
+            "Blue",
+            "Black",
+            "White"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/men/men6-1.jpg",
+            "assets/img/men/men6-2.jpg",
+            "assets/img/men/men6-3.jpg",
+            "assets/img/men/men6-4.jpg"
+        ],
+        "Price": "110"
+    },
+    {
+        "ID": "sp7",
+        "Name": "Men's Jeans",
+        "Color": [
+            "Grey",
+            "Blue",
+            "Black",
+            "Green"
+        ],
+        "Size": [
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/men/men7-1.jpg",
+            "assets/img/men/men7-2.jpg",
+            "assets/img/men/men7-3.jpg",
+            "assets/img/men/men7-4.jpg",
+            "assets/img/men/men7-5.jpg"
+        ],
+        "Price": "155"
+    },
+    {
+        "ID": "sp8",
+        "Name": "Men's Sweaters 1",
+        "Color": [
+            "Red",
+            "Orange"
+        ],
+        "Size": [
+            "M",
+            "L"
+        ],
+        "Img": [
+            "assets/img/men/men9-1.jpg",
+            "assets/img/men/men9-2.jpg"
+        ],
+        "Price": "95"
+    },
+    {
+        "ID": "sp9",
+        "Name": "Men's Sweaters 2",
+        "Color": [
+            "Red",
+            "Orange"
+        ],
+        "Size": [
+            "M",
+            "L"
+        ],
+        "Img": [
+            "assets/img/men/men9-3.jpg",
+            "assets/img/men/men9-4.jpg"
+        ],
+        "Price": "95"
+    },
+    {
+        "ID": "sp10",
+        "Name": "Men's Suit Set 3",
+        "Color": [
+            "Orange",
+            "Black",
+            "Blue"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/men/men10-1.jpg",
+            "assets/img/men/men10-3.jpg",
+            "assets/img/men/men10-2.jpg",
+            "assets/img/men/men10-4.jpg"
+        ],
+        "Price": "95"
+    },
+    {
+        "ID": "sp11",
+        "Name": "Men's T-Shirt",
+        "Color": [
+            "Light Blue",
+            "Grey",
+            "Dark Blue"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/men/men11-1.jpg",
+            "assets/img/men/men11-3.jpg",
+            "assets/img/men/men11-4.jpg"
+        ],
+        "Price": "50"
+    },
+    {
+        "ID": "sp12",
+        "Name": "Men's Polo Shirt",
+        "Color": [
+            "Black",
+            "Red",
+            "Blue"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "Img": [
+            "assets/img/men/men12-1.jpg",
+            "assets/img/men/men12-2.jpg",
+            "assets/img/men/men12-3.jpg"
+        ],
+        "Price": "85"
+    },
+    {
+        "ID": "sp13",
+        "Name": "Women's Suit Set 1",
+        "Color": [
+            "White",
+            "Black",
+            "Yellow"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "Img": [
+            "assets/img/girl/girl1.jpg",
+            "assets/img/girl/girl1-2.jpg",
+            "assets/img/girl/girl1-3.jpg"
+        ],
+        "Price": "120"
+    },
+    {
+        "ID": "sp14",
+        "Name": "Women's Somi",
+        "Color": [
+            "White",
+            "Black",
+            "Yellow"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "Img": [
+            "assets/img/girl/girl2-1.jpg",
+            "assets/img/girl/girl2-2.jpg",
+            "assets/img/girl/girl2-3.jpg"
+        ],
+        "Price": "60"
+    },
+    {
+        "ID": "sp15",
+        "Name": "Women's Suit Set 2",
+        "Color": [],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/girl/girl3-2.jpg",
+            "assets/img/girl/girl3-3.jpg"
+        ],
+        "Price": "120"
+    },
+    {
+        "ID": "sp16",
+        "Name": "Women's Shorts",
+        "Color": [
+            "Light Blue",
+            "Blue",
+            "Dark Blue"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "Img": [
+            "assets/img/girl/girl4-1.jpg",
+            "assets/img/girl/girl4-2.jpg",
+            "assets/img/girl/girl4-3.jpg",
+            "assets/img/girl/girl4-4.jpg"
+        ],
+        "Price": "70,5"
+    },
+    {
+        "ID": "sp17",
+        "Name": "Women's Suit Set 3",
+        "Color": [
+            "Light Blue",
+            "Blue",
+            "Dark Blue"
+        ],
+        "Size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/girl/girl5-1.jpg",
+            "assets/img/girl/girl5-2.jpg",
+            "assets/img/girl/girl5-3.jpg"
+        ],
+        "Price": "120"
+    },
+    {
+        "ID": "sp18",
+        "Name": "Women's Suit Set 4",
+        "Color": [],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/girl/girl6-1.jpg",
+            "assets/img/girl/girl6-2.jpg"
+        ],
+        "Price": "120"
+    },
+    {
+        "ID": "sp19",
+        "Name": "Women's Suit Set 5",
+        "Color": [],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/girl/girl7-1.jpg",
+            "assets/img/girl/girl7-2.jpg",
+            "assets/img/girl/girl7-3.jpg"
+        ],
+        "Price": "120"
+    },
+    {
+        "ID": "sp20",
+        "Name": "Women's Suit Set 6",
+        "Color": [],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/girl/girl8-1.jpg",
+            "assets/img/girl/girl8-2.jpg",
+            "assets/img/girl/girl8-3.jpg"
+        ],
+        "Price": "120"
+    },
+    {
+        "ID": "sp21",
+        "Name": "Women's Dress 1",
+        "Color": [],
+        "Size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "Img": [
+            "assets/img/girl/girl9-1.jpg",
+            "assets/img/girl/girl9-2.jpg",
+            "assets/img/girl/girl9-3.jpg",
+            "assets/img/girl/girl9-4.jpg"
+        ],
+        "Price": "90"
+    },
+    {
+        "ID": "sp22",
+        "Name": "Women's T-Shirt",
+        "Color": [
+            "Black",
+            "White"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/girl/girl10-1.jpg",
+            "assets/img/girl/girl10-4.jpg",
+            "assets/img/girl/girl10-5.jpg"
+        ],
+        "Price": "60"
+    },
+    {
+        "ID": "sp23",
+        "Name": "Women's Trousers",
+        "Color": [],
+        "Size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/girl/girl11-1.jpg",
+            "assets/img/girl/girl11-2.jpg",
+            "assets/img/girl/girl11-3.jpg"
+        ],
+        "Price": "75"
+    },
+    {
+        "ID": "sp24",
+        "Name": "Women's Dress 2",
+        "Color": [],
+        "Size": [
+            "M",
+            "L"
+        ],
+        "Img": [
+            "assets/img/girl/girl12-1.jpg",
+            "assets/img/girl/girl12-2.jpg"
+        ],
+        "Price": "85"
+    },
+    {
+        "ID": "sp25",
+        "Name": "Unisex's Trousers",
+        "Color": [
+            "Blue shark",
+            "Green shark"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/unisex/unisex1-1.jpg",
+            "assets/img/unisex/unisex1-2.jpg",
+            "assets/img/unisex/unisex1-3.jpg"
+        ],
+        "Price": "70"
+    },
+    {
+        "ID": "sp26",
+        "Name": "Unisex's Trousers 2",
+        "Color": [],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/unisex/unisex2-1.jpg",
+            "assets/img/unisex/unisex2-2.jpg",
+            "assets/img/unisex/unisex2-3.jpg"
+        ],
+        "Price": "70"
+    },
+    {
+        "ID": "sp27",
+        "Name": "Unisex's T-Shirt 1",
+        "Color": [
+            "Black",
+            "Light Blue",
+            "White"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/unisex/unisex3-1.jpg",
+            "assets/img/unisex/unisex3-2.jpg",
+            "assets/img/unisex/unisex3-3.jpg"
+        ],
+        "Price": "50"
+    },
+    {
+        "ID": "sp28",
+        "Name": "Unisex's Suit Set 1",
+        "Color": [
+            "Green (Dinosaur)",
+            "Yellow (SpongeBob)",
+            "Pink (Milk)"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/unisex/unisex4-1.jpg",
+            "assets/img/unisex/unisex4-2.jpg",
+            "assets/img/unisex/unisex4-3.jpg"
+        ],
+        "Price": "110"
+    },
+    {
+        "ID": "sp29",
+        "Name": "Unisex's Suit Set 2",
+        "Color": [],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/unisex/unisex5-1.jpg",
+            "assets/img/unisex/unisex5-2.jpg",
+            "assets/img/unisex/unisex5-3.jpg"
+        ],
+        "Price": "110"
+    },
+    {
+        "ID": "sp30",
+        "Name": "Unisex's Shorts",
+        "Color": [
+            "Black"
+        ],
+        "Size": [
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/unisex/unisex6-1.jpg",
+            "assets/img/unisex/unisex6-2.jpg",
+            "assets/img/unisex/unisex6-3.jpg"
+        ],
+        "Price": "65"
+    },
+    {
+        "ID": "sp31",
+        "Name": "Unisex's Hoodie",
+        "Color": [
+            "Black",
+            "Green",
+            "Yellow",
+            "Blue"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/unisex/unisex7-1.jpg",
+            "assets/img/unisex/unisex7-2.jpg",
+            "assets/img/unisex/unisex7-3.jpg",
+            "assets/img/unisex/unisex7-4.jpg"
+        ],
+        "Price": "80"
+    },
+    {
+        "ID": "sp32",
+        "Name": "Unisex's T-Shirt 2",
+        "Color": [
+            "White",
+            "Blue",
+            "Black"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/unisex/unisex8-1.jpg",
+            "assets/img/unisex/unisex8-2.jpg",
+            "assets/img/unisex/unisex8-4.jpg"
+        ],
+        "Price": "50"
+    },
+    {
+        "ID": "sp33",
+        "Name": "Unisex's T-Shirt 3",
+        "Color": [
+            "White",
+            "Black"
+        ],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/unisex/unisex9-1.jpg",
+            "assets/img/unisex/unisex9-4.jpg",
+            "assets/img/unisex/unisex9-5.jpg"
+        ],
+        "Price": "10"
+    },
+    {
+        "ID": "sp34",
+        "Name": "Unisex's Jacket",
+        "Color": [
+            "White",
+            "Black"
+        ],
+        "Size": [
+            "M",
+            "L"
+        ],
+        "Img": [
+            "assets/img/unisex/unisex10-1.jpg",
+            "assets/img/unisex/unisex10-4.jpg",
+            "assets/img/unisex/unisex10-2.jpg",
+            "assets/img/unisex/unisex10-3.jpg"
+        ],
+        "Price": "90"
+    },
+    {
+        "ID": "sp35",
+        "Name": "Unisex's Shorts 2",
+        "Color": [],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/unisex/unisex11-1.jpg",
+            "assets/img/unisex/unisex11-2.jpg",
+            "assets/img/unisex/unisex11-3.jpg"
+        ],
+        "Price": "65"
+    },
+    {
+        "ID": "sp36",
+        "Name": "Unisex's T-Shirt 4",
+        "Color": [],
+        "Size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "Img": [
+            "assets/img/unisex/unisex12-1.jpg",
+            "assets/img/unisex/unisex12-2.jpg",
+            "assets/img/unisex/unisex12-3.jpg"
+        ],
+        "Price": "50"
+    }
+]

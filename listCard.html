@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Shopping Reimagined | Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/R-logo.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/R-logo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <!-- Header -->
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li>
+                                        <a href="#">Products</a>
+                                        <ul class="submenu">
+                                            <li><a href="men.html">Fashion for Men</a></li>
+                                            <li><a href="girl.html">Fashion for Women</a></li>
+                                            <li><a href="unisex.html">Fashion Unisex</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="feedback.html">Feedback</a></li>
+                                    <li><a href="listCard.html">List Cart</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header Right -->
+                        <div class="header-right">
+                            <ul>
+                                <li>
+                                    <div class="nav-search search-switch">
+                                        <span class="flaticon-search"></span>
+                                    </div>
+                                </li>
+                                <div class="footer-social ">
+                                    <a href="#"><i class="fab fa-twitter "></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f "></i></a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </header>
+    <main>
+        <!-- Hero Area -->
+        <div class="slider-area ">
+            <div class="single-slider slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap text-center">
+                                <h2>Cart List</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--================ Cart Area =================-->
+        <section class="cart_area section_padding">
+            <div class="container">
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="cart_inner">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Product</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Quantity</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody id="list_hang"></tbody>
+                        </table>
+                        <div class="checkout_btn_inner float-right">
+                            <a class="btn_1 checkout_btn_1" href="#" data-toggle="modal" data-target="#myModal">Proceed
+                                to checkout</a>
+                        </div>
+                        <div class="modal" id="myModal" style="z-index: 10000;">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Bill</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <!-- Modal body -->
+                                    <div class="modal-body" id="bill">
+                                        <table></table>
+                                    </div>
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer -->
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p><i>Place to bring beauty to you</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="feedback.html">Feedback</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>New Products</h4>
+                                <ul>
+                                    <li><a href="men.html">Fashion For Men</a></li>
+                                    <li><a href="girl.html">Fashion For Women</a></li>
+                                    <li><a href="unisex.html">Fashion Unisex</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Support</h4>
+                                <ul>
+                                    <li><a href="#">Frequently Asked Questions</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Report a Payment Issue</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer bottom -->
+                <div class="row align-items-center">
+                    <div class="col-xl-7 col-lg-8 col-md-7">
+                        <div class="footer-copy-right">
+                            <p>
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Search model -->
+    <div class="search-model-box">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-btn">+</div>
+            <form class="search-model-form">
+                <div class="input-group mb-3 search">
+                    <input type="text" id="search-input" class="form-control" placeholder="Searching key.....">
+                    <div class="input-group-prepend" id="search_button">
+                        <i class="fas flaticon-search" id="fas"></i>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- JS here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+
+    <!-- Scrollup, nice-select, sticky -->
+    <script src="./assets/js/jquery.scrollUp.min.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/jquery.loadfirsttime.js "></script>
+
+    <script>
+        var keys = Object.keys(sessionStorage);
+        var subtotal = 0;
+        var bill = "";
+        $('#list_hang').empty();
+        for (var i = 0; i < keys.length; i++) {
+            var k = 1;
+            if (keys[i] != "user") {
+                    var txtsp = JSON.parse(sessionStorage.getItem(keys[i]));
+                    var obj = JSON.parse(txtsp);
+                    sessionStorage.setItem("searchtext", true)
+                    if (obj != true) {
+                    $('#list_hang').append('<tr></tr>')
+                    $('#list_hang tr').last().append(
+                        '<td id="list_name"></td><td id="price"></td><td id="quantity"></td><td id="total"></td>');
+                    $('#list_hang tr #list_name').last().append(
+                        '<div class="media"><div class="d-flex"><img src="assets/img/gallery/card1.png" alt="" /></div><div class="media-body"><p></p></div></div>'
+                    );
+                    $('#list_hang tr #list_name img').last().attr('src', obj.img);
+                    $('#list_hang tr #list_name p').last().html(obj.details);
+                    $('#list_hang tr #price').last().append('<h5></h5>');
+                    $('#list_hang tr #price h5').last().html("$ " + obj.Price);
+                    $('#list_hang tr #quantity').last().append(
+                        '<div class="product_count"><input class="input-number" id="q' + i +
+                        '" type="text" value="1" min="0" max="10"></div>'
+                    );
+                    $('#list_hang tr #quantity input').last().val(obj.Quantity);
+                    $('#list_hang tr #total').last().append('<h5 id="t' + i + '"></h5>');
+                    var price = parseInt(obj.Price);
+                    var quantity = parseInt(obj.Quantity);
+                    subtotal = subtotal + price * quantity;
+                    $('#list_hang tr #total h5').last().html("$ " + price * quantity);
+                    $('#bill table').append(
+                        '<tr><td id="bill_name"></td><td id="bill_qty"></td><td id="bill_total"></td></tr>');
+                    $('#bill table tr #bill_name').last().html(obj.details);
+                    $('#bill table tr #bill_qty').last().html(obj.Quantity);
+                    $('#bill table tr #bill_total').last().html("$ " + price * quantity);
+                }
+            }
+        }
+
+        $('#list_hang').append(
+            '<tr class="bottom_button"><td></td><td></td><td></td><td><div class="cupon_text float-right"><a id="update_cart" class="btn_1" href="#">Update Cart</a></div></td></tr>'
+        );
+        $('#list_hang').append('<tr><td></td><td></td><td><h5>Subtotal</h5></td><td><h5 id="subtotal"></h5></td></tr>');
+        $('#list_hang #subtotal').html("$ " + subtotal);
+        $('#bill table').append('<tr><td></td><td>Subtotal</td><td id="bill_subtotal"></td></tr>');
+        $('#bill_subtotal').html('$ ' + subtotal);
+        $('#bill table').append('<tr><td></td><td id="bill_date" colspan="2"></td></tr>');
+        $('#bill_date').html(new Date().getDate() + "/ " + (new Date().getMonth() + 1) + "/ " + new Date().getFullYear());
+        $('#update_cart').click(function () {
+            $('#bill table').empty();
+            for (var i = 0; i < keys.length; i++) {
+                if (keys[i] != "user") {
+                    var txtsp = JSON.parse(sessionStorage.getItem(keys[i]));
+                    var obj = JSON.parse(txtsp);
+                    sessionStorage.setItem("searchtext", true)
+                    if (obj != true) {
+                    var id = 'q' + i;
+                    var t = 't' + i;
+                    var price = parseInt(obj.Price);
+                    var last_qty = parseInt(obj.Quantity);
+                    var total = price * last_qty;
+                    if (document.getElementById(id).value != obj.Quantity) {
+                        var quantity = parseInt(document.getElementById(id).value);
+                        total = price * quantity;
+                        $('#' + t).html("$ " + total);
+                        subtotal = subtotal + (quantity - last_qty) * price;
+                        $('#list_hang #subtotal').html("$ " + subtotal);
+                        var object = {
+                            id: obj.id,
+                            details: obj.details,
+                            Quantity: document.getElementById(id).value,
+                            Price: obj.Price,
+                            img: obj.img
+                        };
+                        var myJSON = JSON.stringify(object);
+                        sessionStorage.setItem(keys[i], JSON.stringify(myJSON));
+                    }
+                    $('#bill table').append(
+                        '<tr><td id="bill_name"></td><td id="bill_qty"></td><td id="bill_total"></td></tr>');
+                    $('#bill table tr #bill_name').last().html(obj.details);
+                    $('#bill table tr #bill_qty').last().html(document.getElementById(id).value);
+                    $('#bill table tr #bill_total').last().html("$ " + total);
+                }
+            }
+            }
+            $('#bill table').append('<tr><td></td><td</td><td>Subtotal</td><td id="bill_subtotal"></td></tr>');
+            $('#bill_subtotal').html('$ ' + subtotal);
+        })
+        $('#list_hang').append(
+            '<tr class="shipping_area"><td></td><td></td><td><h5>Shipping</h5></td><td><div class="shipping_box"><ul class="list"><li>Flat Rate: $5.00<input type="radio" aria-label="Radio button for following text input"></li><li>Free Shipping<input type="radio" aria-label="Radio button for following text input"></li><li>Flat Rate: $10.00<input type="radio" aria-label="Radio button for following text input"></li><li class="active">Local Delivery: $2.00<input type="radio" aria-label="Radio button for following text input"></li></ul><h6>Calculate Shipping<i class="fa fa-caret-down" aria-hidden="true"></i></h6><select class="shipping_select">tion value="1">Bangladesh</option><option value="2">India</option><option value="4">Pakistan</option></select><select class="shipping_select section_bg"><option value="1">Select a State</option>ption value="2">Select a State</option><option value="4">Select a State</option></select><input class="post_code" type="text" placeholder="Postcode/Zipcode" /><a class="btn_1" href="#">Update Details</a></div></td></tr>'
+        );
+    </script>
+
+</body>
+
+</html>
